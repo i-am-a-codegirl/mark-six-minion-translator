@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@600&display=swap');
+
+
+body{
+    font-family: 'Caveat', cursive;
+    margin: 0;
+    font-size: 40px;
+    background-color: #FFFBEB;
+    ;
+}
+
+:root{
+    --primary-color:#FCD34D;
+}
+
+div{
+
+    
+    margin:auto;
+    text-align: center;
+    font-family: inherit;
+    
+}
+
+main{
+    max-width: 600px;
+    margin: auto;
+    font-family: inherit;
+    display: block;
+    padding: 1rem;
+    max-width: 600px;
+}
+
+
+
+button{
+    padding: 1rem 2rem;
+    display: block;
+    margin: 1rem 0.5rem;
+    margin-left: 2rem;
+   background-color: var(--primary-color); 
+   font-size: large;
+   font-family: 'Shadows Into Light', cursive;
+   border: none;
+}
+
+#text-translate{
+    font-size: 29px;
+    text-align: left;
+    margin-left:2rem;
+    
+}
+
+#output{
+    margin-top: 0rem;
+    margin-left: 2rem;
+    
+    overflow: scroll;
+    border: 1px dashed black;
+    box-sizing: border-box;
+    font-size: 22px;
+    width: 100%;
+    padding: 0.5rem;
+    min-height: 10vh;
+    max-height: 20vh;
+    text-align: left;
+}
+
+textarea{
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    min-height: 20vh;
+    margin-top: 2rem;
+    font-size: 22px;
+    font-family: inherit;
+    background-color: #FFFBEB;
+    margin-left: 2rem;
+}
+
+footer{
+background-color: var(--primary-color);
+position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 1rem;
+display:block;
+
+
+
+}
+
+footer p{
+    margin: auto;
+    max-width: 600px;
+    font-size: 20px;
+    text-align: center;
+    font-weight: lighter;
+    font-family: 'Caveat', cursive;
+}
